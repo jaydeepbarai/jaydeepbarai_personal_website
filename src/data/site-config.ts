@@ -40,10 +40,10 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     logo: {
-        src: '/logo.svg',
-        alt: 'Ovidius logo'
+        src: '/logo-no-background.png',
+        alt: 'JB Logo'
     },
-    title: 'Ovidius',
+    title: 'Jaydeep Barai',
     description: 'Astro.js and Tailwind CSS theme for blogging by justgoodui.com',
     image: {
         src: '/ovidius-preview.jpg',
@@ -65,10 +65,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
         }
     ],
     secondaryNavLinks: [
@@ -77,16 +73,8 @@ const siteConfig: SiteConfig = {
             href: '/about'
         },
         {
-            text: 'Terms of Service',
-            href: '/terms'
-        },
-        {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
         }
     ],
     socialLinks: [
@@ -97,30 +85,25 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Follow on Instagram',
-            href: 'https://instagram.com/',
+            href: 'https://www.instagram.com/jaydeepbarai?igsh=MTFlbXNwYTNxNW55Yw==',
             icon: 'instagram'
         },
         {
-            text: 'Follow on X',
-            href: 'https://twitter.com/justgoodui',
-            icon: 'x-twitter'
+            text: 'Follow on LinkedIn',
+            href: 'https://www.linkedin.com/in/jaydeepbarai/',
+            icon: 'linkedin'
         }
     ],
     hero: {
         title: 'Hi there!',
-        text: "My name is Justin Case. I'm a freelance front-end developer, author and speaker based in Austin, TX. It's nice to meet you.",
+        text: "My name is Jaydeep Barai. I'm a Real Estate Investment Advisor based in Dubai, UAE. It's nice to meet you.",
         avatar: {
             src: '/avatar.jpg',
-            alt: 'Justin Case'
+            alt: 'Jaydeep Barai'
         },
         backgroundImage: {
             src: '/hero.webp'
         }
-    },
-    subscribe: {
-        title: 'Subscribe to Ovidius Newsletter',
-        text: 'One update per week. All the latest news directly in your inbox.',
-        formUrl: 'https://justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117&amp;f_id=005c48e2f0'
     },
     postsPerPage: 5
 };
